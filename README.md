@@ -17,6 +17,22 @@ super awesome, it requires new people come on board. And we all understand
 that they *may* have silly questions. It isn't a big deal- but there are a 
 few things you should know before you jump in. Here we go...
 
+## Important links
+[Freenode Webchat](http://webchat.freenode.net/)<br>
+Connecting can't get much easier. Freenode offers this **free** in-brower chat client.
+
+[Policy on Trolling](http://blog.izs.me/post/30036893703/policy-on-trolling)<br>
+Read it. Don't break it.
+
+[Irc Logs](http://logs.nodejs.org/channels)<br>
+Never miss a thing!<br>
+Catch up on way-back-when goodness!<br>
+Figure out what that darn link was that you can't remember!<br>
+
+[Stack Overflow](http://stackoverflow.com/questions/tagged/node.js)<br>
+You're problem may already be solved! Or if IRC doesn't work out for you- definately
+give Stack Overflow a whirl. Many great experts helping out over there.
+
 ## World Wide!
 The Node.js community is global. It is very important to realized that your mid 
 afternoon crisis is happening at 3AM for others! There is no time-of-day that is 
