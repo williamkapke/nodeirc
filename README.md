@@ -38,17 +38,25 @@ background. If you have a question about a specific module, it is better to ask
 your question to everyone and not directly to the author. Module authors are 
 volunteers too! They may be busy at the moment.
 
-> TIP!: A question asked directly to someone will be ignored by everyone else!
-
+> TIP!: A question asked directly to someone will be ignored by everyone else!<br>
 > TIP!: NEVER ASSUME A NON-RESPONSE IS VICIOUS!
 
 
 ## Asking for help
-I'm going to unofficially declare *RULE #1:* Ask Google first.
+I'm going to unofficially declare:
 
-If your answer is easily found on Google do not ask in IRC. If you haven't put 
-in a reasonable effort to resolve the issue on your own- you'll just irritate 
-people. Volunteers want to *help* you- not *work* for you.
+* RULE #1: Ask Google first. If your answer is easily found on Google do not ask in IRC.
+* RULE #2: Check the [Node.js API docs](http://nodejs.org/api/). They're actually quite good!
+
+> TIP! You can find older Node.js API docs here: http://nodejs.org/docs/
+
+If you haven't put in a reasonable effort to resolve the issue on your own- you'll
+just irritate people. Volunteers want to *help* you- not *work* for you.
+
+Also, it is a really good idea to search the [Node.js issues](https://github.com/joyent/node/issues) on Github.
+Both Open & Closed issues! This is especially true if you are still using an older
+version of Node. The solution to your problem may be that you need to upgrade to
+the [latest stable version](http://nodejs.org/download/).
 
 ### Help everyone help you!
 The more detailed and well prepared your question is the more likely 
@@ -66,6 +74,7 @@ run the code and ultimately surfaced [a confirmed bug](https://github.com/joyent
 
 #### What not to do
 Here are some common questions that will generally will go ignored:
+
 * "Can someone help me?"
 * "Can I ask a question?"
 * "Hey, does anyone here have experience with Express?" (or other thing)
@@ -73,8 +82,8 @@ Here are some common questions that will generally will go ignored:
 
 #### A good example
 > I'm having a problem with socket.io. I've searched google for the error 
-and cannot find anything. When I call this.emit('foo') I getting the error 
-'<Object> does not have a function emit()'. You can see my code here: 
+and cannot find anything. When I call this.emit('foo') I'm getting the error
+'&lt;Object&gt; does not have a function emit()'. You can see my code here:
 http://pastebin.com/asdf1234"
 
 *(That is a completely made up example. Send me a PR to suggest a better one!)*
@@ -116,6 +125,6 @@ may not get love if you ask about a specific Node.js issue. DO NOT HATE THEM
 Be grateful for this gift. They have no obligation to cater to the Node.js 
 community. (And that's OK!)
 
-You should probably have a decent knowledge of v8 if asking here.
 
+You should probably have a decent knowledge of v8 if asking here.
 

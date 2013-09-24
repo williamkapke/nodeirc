@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <title>Node.js Meatspace</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
+    <style>
+      body {
+        padding: 40px 20px;
+        font-family: 'Raleway', sans-serif;
+        color: #333;
+        max-width: 800px;
+        margin: 0px auto;
+      }
+      a {
+        text-decoration: none;
+        padding-bottom: 1px;
+        border-bottom: 1px solid #acacac;
+        color: #58A775;
+      }
+      a:hover {
+        border-bottom: 1px dotted #acacac;
+        opacity: .75;
+      }
+      h1 {font-size: 300%;}
+      p, li {
+        line-height: 1.6em;
+        margin: 1em .5em;
+      }
+      strong { font-family: Verdana;}
+      blockquote {
+        background-color: #efefef;
+        padding: 0 3px;
+        margin: 1em;
+      }
+      code {
+        background-color: #efefef;
+        padding: 2px 4px 4px;
+        border-radius: 4px;
+      }
+      li {
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://github.com/williamwicks/nodeirc"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+    <h1>The Node.js community on IRC</h1>
+<p><strong>Hit a problem using Node.js?</strong><br>
+<strong>Confused about how to use a module?</strong><br>
+<strong>Maybe you just want to profess your love for Node.js?</strong></p>
+<p>The Node.js IRC channels are vibrant gatherings of <em>volunteers</em> that want to make 
+Node.js and its friends the best platform available on ALL operating systems!
+<br>
+<br>
+<strong>Are you a rookie?</strong><br>
+<strong>Just getting starting?</strong><br>
+<strong>A bit nervous to ask a question that might be silly?</strong></p>
+<p>Don&#39;t worry- most people feel that way initially. To make Node.js even more 
+super awesome, it requires new people come on board. And we all understand 
+that they <em>may</em> have silly questions. It isn&#39;t a big deal- but there are a 
+few things you should know before you jump in. Here we go...</p>
+<h2>World Wide!</h2>
+<p>The Node.js community is global. It is very important to realized that your mid 
+afternoon crisis is happening at 3AM for others! There is no time-of-day that is 
+&quot;best&quot; to seek help.</p>
+<h2>What to expect</h2>
+<p>The channels are open to all. That includes experts, novices, noobies, and... of 
+course the occasional smart ass, jerk, hater, troll ...etc. The channels 
+are moderated by several volunteers living all around the world. In the inevitable 
+case of a misbehaving member, they will step in and resolve the issue to ensure 
+the community keeps a positive vibe.</p>
+<p>Everyone in a channel is there on his or her own free will. No one is <em>required</em> to 
+help you. Most people just have the channel open, are mostly silent, but enjoy 
+multi tasking and helping whenever they can.</p>
+<p>Many module authors are connected but have their IRC client running in the 
+background. If you have a question about a specific module, it is better to ask 
+your question to everyone and not directly to the author. Module authors are 
+volunteers too! They may be busy at the moment.</p>
+<blockquote>
+<p>TIP!: A question asked directly to someone will be ignored by everyone else!<br>
+TIP!: NEVER ASSUME A NON-RESPONSE IS VICIOUS!</p>
+</blockquote>
+<h2>Asking for help</h2>
+<p>I&#39;m going to unofficially declare:</p>
+<ul>
+<li>RULE #1: Ask Google first. If your answer is easily found on Google do not ask in IRC.</li>
+<li>RULE #2: Check the <a href="http://nodejs.org/api/">Node.js API docs</a>. They&#39;re actually quite good!</li>
+</ul>
+<blockquote>
+<p>TIP! You can find older Node.js API docs here: <a href="http://nodejs.org/docs/">http://nodejs.org/docs/</a></p>
+</blockquote>
+<p>If you haven&#39;t put in a reasonable effort to resolve the issue on your own- you&#39;ll
+just irritate people. Volunteers want to <em>help</em> you- not <em>work</em> for you.</p>
+<p>Also, it is a really good idea to search the <a href="https://github.com/joyent/node/issues">Node.js issues</a> on Github.
+Both Open &amp; Closed issues! This is especially true if you are still using an older
+version of Node. The solution to your problem may be that you need to upgrade to
+the <a href="http://nodejs.org/download/">latest stable version</a>.</p>
+<h3>Help everyone help you!</h3>
+<p>The more detailed and well prepared your question is the more likely 
+you are to get help.</p>
+<p>The more complicated your scenario is, the more detailed you should be.
+(example: <a href="https://gist.github.com/williamwicks/6477189">https://gist.github.com/williamwicks/6477189</a>)</p>
+<h4>Isolate your problem first</h4>
+<p>The example above was something I experienced in a large application of mine. 
+It took me several hours to create that whittled down use case that removed 
+all unnecessary code possible. I focused on making it as easy as possible 
+for others to follow and work with. The result: some gracious folks <em>did</em> 
+run the code and ultimately surfaced <a href="https://github.com/joyent/node/issues/6203">a confirmed bug</a>.</p>
+<h4>What not to do</h4>
+<p>Here are some common questions that will generally will go ignored:</p>
+<ul>
+<li>&quot;Can someone help me?&quot;</li>
+<li>&quot;Can I ask a question?&quot;</li>
+<li>&quot;Hey, does anyone here have experience with Express?&quot; (or other thing)</li>
+<li>&quot;What&#39;s wrong with this code: &lt;big blob pasted in&gt;&quot;</li>
+</ul>
+<h4>A good example</h4>
+<blockquote>
+<p>I&#39;m having a problem with socket.io. I&#39;ve searched google for the error 
+and cannot find anything. When I call this.emit(&#39;foo&#39;) I&#39;m getting the error
+&#39;&lt;Object&gt; does not have a function emit()&#39;. You can see my code here:
+<a href="http://pastebin.com/asdf1234">http://pastebin.com/asdf1234</a>&quot;</p>
+</blockquote>
+<p><em>(That is a completely made up example. Send me a PR to suggest a better one!)</em></p>
+<p>Here, a simplistic high-level overview starts the question and then ends 
+with a way for a volunteer to click a link to a well-know service to examine 
+the details.</p>
+<h3>Be on topic</h3>
+<p>It&#39;s very very OK to be a rookie! Often when you&#39;re getting started, you&#39;re 
+confused about what-is-what and don&#39;t know where to start. We&#39;ve all been there!</p>
+<p>If you are told to &quot;Go ask in channel X!&quot;... do not get offended often you&#39;ll 
+discover that the channel you&#39;re referred to will do a much better job.</p>
+<p>For example: People often ask C/C++ questions in the #Node.js channel. Although
+it may be related to #Node.js the channel doesn&#39;t discuss it often or in great 
+detail. You may get more love in <code>#libuv</code> or <code>#v8</code>.</p>
+<h4>The #Node.js channel has a few cousins:</h4>
+<h5>#libuv</h5>
+<p>Node.js strives to run on all platforms. Node.js provides a platform agnostic API 
+to Operating System functions. To accomplish this, Node.js delegates things to the 
+<code>libuv</code> library. If you are having low-level operating system issues, this may be 
+the place you want to ask.</p>
+<p>The members here frequently need to work with v8 and are often very knowledgeable 
+about v8 (in the context of Node.js) also.</p>
+<h5>#v8</h5>
+<p>Node.js uses the v8 Javasript engine. This means we rely on them to bring new 
+Javascript features to Node.js. It also means bugs/quirks trickle into Node.js.</p>
+<p><em>Very important to know:</em>
+V8 is a google backed product that is primarily focused on Google products. You 
+may not get love if you ask about a specific Node.js issue. DO NOT HATE THEM 
+(Google) FOR THIS! They are doing amazing things that Node.js is able to leverage. 
+Be grateful for this gift. They have no obligation to cater to the Node.js 
+community. (And that&#39;s OK!)</p>
+<p>You should probably have a decent knowledge of v8 if asking here.</p>
+
+    <hr style="margin-top: 50px;">
+    This informational project was started by William Wicks. You may often find him in <code>#Node.js</code> as <code>wwicks</code><br>
+    <br>
+    <strong>Got something to Add?</strong><br>
+    Great! Create an <a href="https://github.com/williamwicks/nodeirc/issues">issue</a> or send a Pull Request!
+  </body>
+</html>
