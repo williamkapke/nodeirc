@@ -29,7 +29,7 @@ are moderated by several volunteers living all around the world. In the inevitab
 case of a misbehaving member, they will step in and resolve the issue to ensure 
 the community keeps a positive vibe.
 
-Everyone in a channel is there on his or her own free will. No one is *required* to 
+Everyone in a channel is there on their own free will. No one is *required* to 
 help you. Most people just have the channel open, are mostly silent, but enjoy 
 multi tasking and helping whenever they can.
 
