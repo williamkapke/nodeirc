@@ -30,13 +30,13 @@ Catch up on way-back-when goodness!<br>
 Figure out what that darn link was that you can't remember!<br>
 
 [Stack Overflow](http://stackoverflow.com/questions/tagged/node.js)<br>
-You're problem may already be solved! Or if IRC doesn't work out for you- definately
+You're problem may already be solved! Or if IRC doesn't work out for you- definitely
 give Stack Overflow a whirl. Many great experts helping out over there.
 
 ## World Wide!
 The Node.js community is global. It is very important to realized that your mid 
-afternoon crisis is happening at 3AM for others! There is no time-of-day that is 
-"best" to seek help.
+afternoon crisis is happening at 3AM for others! (Or should I say 03:00) There is
+no time-of-day that is "best" to seek help.
 
 ## What to expect
 The channels are open to all. That includes experts, novices, noobies, and... of 
