@@ -25,6 +25,10 @@ $(function(){
 	function message(e){
 		var event = e.data;
 		event = JSON.parse(event);
+		if(event.connected===true){
+			events.innerHTML = "";
+			return;
+		}
 		event.ts = new Date(event.ts);
 
 		switch(event.command){
