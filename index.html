@@ -1,51 +1,18 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Node.js IRC</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
-    <style>
-      body {
-        padding: 40px 20px;
-        font-family: 'Raleway', sans-serif;
-        color: #333;
-        max-width: 800px;
-        margin: 0px auto;
-      }
-      a {
-        text-decoration: none;
-        padding-bottom: 1px;
-        border-bottom: 1px solid #acacac;
-        color: #58A775;
-      }
-      a:hover {
-        border-bottom: 1px dotted #acacac;
-        opacity: .75;
-      }
-      h1 {font-size: 300%;}
-      p, li {
-        line-height: 1.6em;
-        margin: 1em .5em;
-      }
-      strong { font-family: Verdana;}
-      blockquote {
-        background-color: #efefef;
-        padding: 0 3px;
-        margin: 1em;
-      }
-      code {
-        background-color: #efefef;
-        padding: 2px 4px 4px;
-        border-radius: 4px;
-      }
-      li {
-        margin: 0px;
-      }
-    </style>
+    <meta charset="utf-8">
+    <title>n⬢deirc
+    </title>
+    <link rel="stylesheet" href="/css/base.css">
   </head>
   <body>
-    <a href="https://github.com/williamwicks/nodeirc"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-    <h1>The Node.js community on IRC</h1>
-<p><strong>Hit a problem using Node.js?</strong><br>
+    <header>
+      <h1>n<span class=gliph>⬢</span>deirc</h1>
+      <div id="connection"></div>
+    </header>
+    <article id="guide">
+      <h2>Getting started with #Node.js on IRC</h2><p><strong>Hit a problem using Node.js?</strong><br>
 <strong>Confused about how to use a module?</strong><br>
 <strong>Maybe you just want to profess your love for Node.js?</strong></p>
 <p>The Node.js IRC channels are vibrant gatherings of <em>volunteers</em> that want to make 
@@ -164,10 +131,18 @@ Be grateful for this gift. They have no obligation to cater to the Node.js
 community. (And that&#39;s OK!)</p>
 <p>You should probably have a decent knowledge of v8 if asking here.</p>
 
-    <hr style="margin-top: 50px;">
-    This informational project was started by William Wicks. You may often find him in <code>#Node.js</code> as <code>wwicks</code><br>
-    <br>
-    <strong>Got something to Add?</strong><br>
-    Great! Create an <a href="https://github.com/williamwicks/nodeirc/issues">issue</a> or send a Pull Request!
+      <hr style="margin-top: 50px;">This informational project was started by William Wicks. You may often find him in <code>#Node.js</code> as <code>wwicks</code><br><br><strong>Got something to Add?</strong><br>Great! Create an <a href="https://github.com/williamwicks/nodeirc/issues">issue</a> or send a Pull Request!
+    </article>
+    <article id="live">
+      <header>
+        <h1>Live IRC Stream</h1>
+      </header>
+      <div id="events"></div>
+      <footer>Built with Server Sent Events using&nbsp;&nbsp;<a href="http://npmjs.org/package/litesocket">litesocket</a>&nbsp;&nbsp;&nbsp;&nbsp;<small> (not socket.io)</small></footer>
+    </article>
   </body>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
+  <script src="/js/sse.js"></script>
+  <script src="/js/live-sse.js"></script>
 </html>

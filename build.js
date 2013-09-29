@@ -1,10 +1,9 @@
-var marked = require('marked')
-  , handlebars = require('handlebars')
-  , fs = require('fs')
-  , path = require('path')
-
-  , template = handlebars.compile(fs.readFileSync(path.join(__dirname, 'template.hbs')).toString())
-  , readme = fs.readFileSync(path.join(__dirname, 'README.md')).toString()
+var marked = require('marked'),
+	jade = require('jade'),
+	fs = require('fs'),
+	path = require('path'),
+	readme = marked(fs.readFileSync(__dirname+'/README.md').toString()),
+	html = jade.renderFile('index.jade', {readme: readme, pretty:true})
 ;
 
-fs.writeFileSync('index.html', template({readme: marked(readme)}))
+fs.writeFileSync('index.html', html)

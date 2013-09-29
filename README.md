@@ -1,5 +1,3 @@
-# The Node.js community on IRC
-
 **Hit a problem using Node.js?**<br>
 **Confused about how to use a module?**<br>
 **Maybe you just want to profess your love for Node.js?**

@@ -1,0 +1,26 @@
+extends layout
+
+block body
+	article#guide
+		h2 Getting started with #Node.js on IRC
+		!=readme
+		hr(style="margin-top: 50px;")
+		| This informational project was started by William Wicks. You may often find him in <code>#Node.js</code> as <code>wwicks</code><br>
+		br
+		strong Got something to Add?
+		br
+		| Great! Create an <a href="https://github.com/williamwicks/nodeirc/issues">issue</a> or send a Pull Request!
+	article#live
+		header
+			h1 Live IRC Stream
+		#events
+		footer Built with Server Sent Events using&nbsp;&nbsp;
+			a(href="http://npmjs.org/package/litesocket") litesocket
+			| &nbsp;&nbsp;&nbsp;&nbsp;
+			small  (not socket.io)
+
+block append scripts
+	script(src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js")
+	script(src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js")
+	script(src="/js/sse.js")
+	script(src="/js/live-sse.js")
