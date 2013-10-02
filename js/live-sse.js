@@ -2,6 +2,7 @@ $(function(){
 	var last;
 	var max_margin = 100;
 	var atbottom = true;
+	var history_end = false;
 
 	window.socket = sse.open('http://nodeirc-wwicks.rhcloud.com/live', {
 		"open": function(e){
@@ -15,12 +16,26 @@ $(function(){
 		},
 		"history": message,
 		"history_end": function(e){
+			history_end = true;
 			console.log('history_end');
+			$('#spin').removeClass('loading');
 		},
 		"message": message
 	});
 	$(events).scroll(function (e) {
 		atbottom = ((events.scrollHeight - events.offsetHeight) - events.scrollTop) < 10;
+		if(!events.scrollTop && history_end){
+			var time = events.firstChild.firstChild;
+			var start = time.getAttribute('datetime');
+			var name_span = time.nextSibling;
+			var top = name_span.offsetTop;
+			$('#spin').addClass('loading');
+			$.get("http://nodeirc-wwicks.rhcloud.com/messages?limit=100&start="+start, function(response){
+				response.forEach(prepend);
+				events.scrollTop = name_span.offsetTop-top;
+				$('#spin').removeClass('loading');
+			})
+		}
 	});
 	function message(e){
 		var event = e.data;
@@ -29,13 +44,16 @@ $(function(){
 			events.innerHTML = "";
 			return;
 		}
-		event.ts = new Date(event.ts);
 
 		switch(event.command){
 			case 'PRIVMSG':
 				var bottom = atbottom;
 
-
+				event = {
+					"_id": event.ts,
+					"from": event.nick,
+					"msg": event.params[1]
+				}
 				if(e.type==='history')
 					prepend(event)
 				else
@@ -56,7 +74,7 @@ $(function(){
 		var $first = $(events.firstChild);
 		if($first.length) {
 			var other_event = new Date($first.find('time').attr('datetime'));
-			var margin = (Math.abs(event.ts - other_event)/1000)|0;
+			var margin = (Math.abs(Date.parse(event._id) - other_event)/1000)|0;
 			//older than 5 min gets trimmed.
 			if(margin>max_margin){
 				margin = max_margin;
@@ -78,7 +96,7 @@ $(function(){
 		if($last.length) {
 			last = event;
 			var other_event = new Date($last.find('time').attr('datetime'));
-			var margin = (Math.abs(event.ts - other_event)/1000)|0;
+			var margin = (Math.abs(Date.parse(event._id) - other_event)/1000)|0;
 
 			if(margin>max_margin){
 				margin = max_margin;
@@ -92,17 +110,17 @@ $(function(){
 		ival = setTimeout(ticktock, 1000);
 	}
 	function newItem(event){
-		var $new = $('<p>');//;.data('event', JSON.stringify(event));
-		var msg = event.params[1];
+		var $new = $('<p>');
+		var msg = event.msg;
 		var action = /^\u0001?ACTION /.exec(msg)
 		if(action){
 			$new.addClass('action');
 			msg = ' '+ purdy(msg.substr(action[0].length));
 		}
 
-		var iso = event.ts.toISOString();
-		$('<time>').attr('datetime', iso).text(moment(event.ts).timeago()).appendTo($new);
-		$('<span class=nick>').text(event.nick).appendTo($new);
+		var iso = event._id;
+		$('<time>').attr('datetime', iso).text(moment(event._id).timeago()).appendTo($new);
+		$('<span class=nick>').text(event.from).appendTo($new);
 		$('<span class=msg>').html(purdy(msg||'')).appendTo($new);
 		return $new;
 	}
