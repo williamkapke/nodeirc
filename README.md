@@ -28,7 +28,7 @@ Catch up on way-back-when goodness!<br>
 Figure out what that darn link was that you can't remember!<br>
 
 [Stack Overflow](http://stackoverflow.com/questions/tagged/node.js)<br>
-You're problem may already be solved! Or if IRC doesn't work out for you- definitely
+Your problem may already be solved! Or if IRC doesn't work out for you- definitely
 give Stack Overflow a whirl. Many great experts helping out over there.
 
 ## World Wide!
