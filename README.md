@@ -129,7 +129,7 @@ The members here frequently need to work with v8 and are often very knowledgeabl
 about v8 (in the context of Node.js) also.
 
 ##### #v8
-Node.js uses the v8 Javasript engine. This means we rely on them to bring new 
+Node.js uses the v8 Javascript engine. This means we rely on them to bring new 
 Javascript features to Node.js. It also means bugs/quirks trickle into Node.js.
 
 *Very important to know:*
