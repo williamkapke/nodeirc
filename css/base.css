@@ -6,7 +6,7 @@
 }
 html{
 	font-size: 15px;
-	font-family: 'Source Sans Pro', Verdana;
+	font-family: 'Source Sans Pro', verdana, arial, sans-serif;
 	height: 100%;
 	color: #444;
 }
@@ -18,7 +18,7 @@ body {
 
 article {margin:auto 10px;}
 input, select, textarea {
-	font-family: 'Source Sans Pro', Verdana;
+	font-family: 'Source Sans Pro', verdana, arial, sans-serif;
 }
 a { color: rgb(91, 133, 185); text-decoration: none; cursor:pointer; }
 a:hover { color: rgb(0, 0, 185); }
@@ -88,11 +88,12 @@ h1 {
 	right: 10px;
 }
 #guide {
-	position: absolute;
-	top:50px;
-	bottom: 0;
-	width: 58%;
-	overflow: scroll;
+	max-width: 560px;
+	/*position: absolute;*/
+	/*top:50px;*/
+	/*bottom: 0;*/
+	/*width: 58%;*/
+	/*overflow: scroll;*/
 }
 
 #live {
