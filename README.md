@@ -139,6 +139,9 @@ may not get love if you ask about a specific Node.js issue. DO NOT HATE THEM
 Be grateful for this gift. They have no obligation to cater to the Node.js 
 community. (And that's OK!)
 
-
 You should probably have a decent knowledge of v8 if asking here.
+
+#### Info for Moderators
+
+Here is a guide with some tips on how to effectively moderate and deal with trolls: https://gist.github.com/maxogden/8610086
 
