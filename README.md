@@ -19,6 +19,12 @@ few things you should know before you jump in. Here we go...
 [Freenode Webchat](http://webchat.freenode.net/)<br>
 Connecting can't get much easier. Freenode offers this **free** in-brower chat client.
 
+[Code of Conduct](http://confcodeofconduct.com/)
+The node.js IRC should be welcoming to everyone. Use this code of conduct to check yourself before
+you wreck yourself.
+
+tl;dr: behavior that causes people to be unwelcome/uncomfortable should be kept out of the channel.
+
 [Policy on Trolling](http://blog.izs.me/post/30036893703/policy-on-trolling)<br>
 Read it. Don't break it.
 
