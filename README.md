@@ -125,6 +125,11 @@ it may be related to #Node.js the channel doesn't discuss it often or in great
 detail. You may get more love in `#libuv` or `#v8`.
 
 ####The #Node.js channel has a few cousins:
+##### ##javascript
+The ##javascript channel is the unofficial IRC channel for the language itself, which Node.js runs.
+Although there are many helpful people in the #Node.js channel, if you have more generic
+or browser-related JavaScript questions, you may find more help there.
+
 ##### #libuv
 Node.js strives to run on all platforms. Node.js provides a platform agnostic API 
 to Operating System functions. To accomplish this, Node.js delegates things to the 
@@ -135,8 +140,8 @@ The members here frequently need to work with v8 and are often very knowledgeabl
 about v8 (in the context of Node.js) also.
 
 ##### #v8
-Node.js uses the v8 Javascript engine. This means we rely on them to bring new 
-Javascript features to Node.js. It also means bugs/quirks trickle into Node.js.
+Node.js uses the v8 JavaScript engine. This means we rely on them to bring new
+JavaScript features to Node.js. It also means bugs/quirks trickle into Node.js.
 
 *Very important to know:*
 V8 is a google backed product that is primarily focused on Google products. You 
