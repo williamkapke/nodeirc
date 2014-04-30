@@ -28,7 +28,7 @@ tl;dr: behavior that causes people to be unwelcome/uncomfortable should be kept 
 [Policy on Trolling](http://blog.izs.me/post/30036893703/policy-on-trolling)<br>
 Read it. Don't break it.
 
-[Irc Logs](http://logs.nodejs.org/channels)<br>
+[IRC Logs](http://logs.nodejs.org/channels)<br>
 Never miss a thing!<br>
 Catch up on way-back-when goodness!<br>
 Figure out what that darn link was that you can't remember!<br>
