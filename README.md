@@ -38,7 +38,7 @@ Your problem may already be solved! Or if IRC doesn't work out for you- definite
 give Stack Overflow a whirl. Many great experts helping out over there.
 
 ## World Wide!
-The Node.js community is global. It is very important to realized that your mid 
+The Node.js community is global. It is very important to realize that your mid
 afternoon crisis is happening at 3AM for others! (Or should I say 03:00) There is
 no time-of-day that is "best" to seek help.
 
