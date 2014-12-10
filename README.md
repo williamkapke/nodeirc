@@ -17,7 +17,7 @@ few things you should know before you jump in. Here we go...
 
 ## Important links
 [Freenode Webchat](http://webchat.freenode.net/)<br>
-Connecting can't get much easier. Freenode offers this **free** in-brower chat client.
+Connecting can't get much easier. Freenode offers this **free** in-browser chat client.
 
 [Code of Conduct](http://confcodeofconduct.com/)
 The node.js IRC should be welcoming to everyone. Use this code of conduct to check yourself before
