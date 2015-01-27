@@ -125,6 +125,11 @@ it may be related to #Node.js the channel doesn't discuss it often or in great
 detail. You may get more love in `#libuv` or `#v8`.
 
 ####The #Node.js channel has a few cousins:
+##### #io.js
+This channel is where discussions surrounding the community maintained & governed
+Node.js fork - io.js - often happen. Most of the collaborators engage in here, and
+it is a great place for discussing both broad topics about node, and node's internals.
+
 ##### ##javascript
 The ##javascript channel is the unofficial IRC channel for the language itself, which Node.js runs.
 Although there are many helpful people in the #Node.js channel, if you have more generic
