@@ -14,16 +14,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/williamwicks/nodeirc.git"
+    "url": "git://github.com/williamkapke/nodeirc.git"
   },
   "keywords": [
     "community",
     "irc",
     "node"
   ],
-  "author": "William Wicks <william.wicks@gmail.com>",
+  "author": "William Kapke <william.kapke@gmail.com>",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/williamwicks/nodeirc/issues"
+    "url": "https://github.com/williamkapke/nodeirc/issues"
   }
 }

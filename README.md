@@ -83,7 +83,7 @@ The more detailed and well prepared your question is the more likely
 you are to get help.
 
 The more complicated your scenario is, the more detailed you should be.
-(example: https://gist.github.com/williamwicks/6477189)
+(example: https://gist.github.com/williamkapke/6477189)
 
 #### Isolate your problem first
 The example above was something I experienced in a large application of mine. 
