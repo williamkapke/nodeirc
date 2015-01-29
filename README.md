@@ -125,16 +125,19 @@ it may be related to #Node.js the channel doesn't discuss it often or in great
 detail. You may get more love in `#libuv` or `#v8`.
 
 ####The #Node.js channel has a few cousins:
+<a name="io.js"></a>
 ##### #io.js
 This channel is where discussions surrounding the community maintained & governed
 Node.js fork - io.js - often happen. Most of the collaborators engage in here, and
 it is a great place for discussing both broad topics about node, and node's internals.
 
+<a name="#javascript"></a>
 ##### ##javascript
 The ##javascript channel is the unofficial IRC channel for the language itself, which Node.js runs.
 Although there are many helpful people in the #Node.js channel, if you have more generic
 or browser-related JavaScript questions, you may find more help there.
 
+<a name="libuv"></a>
 ##### #libuv
 Node.js strives to run on all platforms. Node.js provides a platform agnostic API 
 to Operating System functions. To accomplish this, Node.js delegates things to the 
@@ -144,6 +147,7 @@ the place you want to ask.
 The members here frequently need to work with v8 and are often very knowledgeable 
 about v8 (in the context of Node.js) also.
 
+<a name="v8"></a>
 ##### #v8
 Node.js uses the v8 JavaScript engine. This means we rely on them to bring new
 JavaScript features to Node.js. It also means bugs/quirks trickle into Node.js.
