@@ -137,6 +137,10 @@ The ##javascript channel is the unofficial IRC channel for the language itself, 
 Although there are many helpful people in the #Node.js channel, if you have more generic
 or browser-related JavaScript questions, you may find more help there.
 
+<a name="#js"></a>
+##### ##js
+The ##js channel is a new javascript channel than ##javascript, and has a code of conduct. If you have general javascript questions, they're welcome there.
+
 <a name="libuv"></a>
 ##### #libuv
 Node.js strives to run on all platforms. Node.js provides a platform agnostic API 
