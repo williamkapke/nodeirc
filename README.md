@@ -139,7 +139,7 @@ or browser-related JavaScript questions, you may find more help there.
 
 <a name="#js"></a>
 ##### ##js
-The ##js channel is a new javascript channel than ##javascript, and has a code of conduct. If you have general javascript questions, they're welcome there.
+The ##js channel is a newer javascript channel than ##javascript, and has a code of conduct. If you have general javascript questions, they're welcome there.
 
 <a name="libuv"></a>
 ##### #libuv
