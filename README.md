@@ -37,6 +37,10 @@ Figure out what that darn link was that you can't remember!<br>
 Your problem may already be solved! Or if IRC doesn't work out for you- definitely
 give Stack Overflow a whirl. Many great experts helping out over there.
 
+[Node.js Slack Community](http://node-dev.slack.com)<br> 
+An open community for Node.js discussion.  Includes a channel which is integrated directly with #Node.js IRC for easy communication. 
+[Visit nodeslackers.io to register](http://nodeslackers.io) 
+
 ## World Wide!
 The Node.js community is global. It is very important to realize that your mid
 afternoon crisis is happening at 3AM for others! (Or should I say 03:00) There is
