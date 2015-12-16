@@ -131,17 +131,17 @@ detail. You may get more love in `#libuv` or `#v8`.
 ####The #Node.js channel has a few cousins:
 <a name="node-dev"></a>
 ##### #node-dev
-The ##node-dev is the channel for discussing Node.js core development and other things related to the Node.js Project itself. Most of the collaborators engage in here, and it is a great place for discussing both broad topics about node, and node's internals.
+The #node-dev is the channel for discussing Node.js core development and other things related to the Node.js Project itself. Most of the collaborators engage in here, and it is a great place for discussing both broad topics about node, and node's internals.
 
 <a name="#javascript"></a>
-##### ##javascript
-The ##javascript channel is the unofficial IRC channel for the language itself, which Node.js runs.
+##### #javascript
+The #javascript channel is the unofficial IRC channel for the language itself, which Node.js runs.
 Although there are many helpful people in the #Node.js channel, if you have more generic
 or browser-related JavaScript questions, you may find more help there.
 
 <a name="#js"></a>
-##### ##js
-The ##js channel is a newer javascript channel than ##javascript, and has a code of conduct. If you have general javascript questions, they're welcome there.
+##### #js
+The #js channel is a newer javascript channel than #javascript, and has a code of conduct. If you have general javascript questions, they're welcome there.
 
 <a name="libuv"></a>
 ##### #libuv
