@@ -129,9 +129,9 @@ it may be related to #Node.js the channel doesn't discuss it often or in great
 detail. You may get more love in `#libuv` or `#v8`.
 
 ####The #Node.js channel has a few cousins:
-<a name="#node-dev"></a>
+<a name="node-dev"></a>
 ##### #node-dev
-#node-dev is the channel for discussing Node.js core development and other things related to the Node.js Project itself. Most of the collaborators engage in here, and it is a great place for discussing both broad topics about node, and node's internals.
+The ##node-dev is the channel for discussing Node.js core development and other things related to the Node.js Project itself. Most of the collaborators engage in here, and it is a great place for discussing both broad topics about node, and node's internals.
 
 <a name="#javascript"></a>
 ##### ##javascript
